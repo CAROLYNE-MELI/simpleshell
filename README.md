@@ -1,0 +1,48 @@
+0x16. C - Simple Shell
+tasks:
+0. Betty would be proud
+Write a beautiful code that passes the Betty checks
+2. Simple shell 0.2
+Simple shell 0.1 +
+3. Simple shell 0.3
+Simple shell 0.2 +
+4. Simple shell 0.4
+Simple shell 0.3 +
+5. Simple shell 1.0
+Simple shell 0.4 +
+6. Simple shell 0.1.1
+Simple shell 0.1 +
+Write your own getline function
+7. Simple shell 0.2.1
+Simple shell 0.2 +
+You are not allowed to use strtok
+8. Simple shell 0.4.1
+Simple shell 0.4 +
+9. setenv, unsetenv
+Simple shell 1.0 +
+10. cd
+Simple shell 1.0 +
+11. ;
+Simple shell 1.0 +
+Handle the commands separator ;
+12. && and ||
+Simple shell 1.0 +
+Handle the && and || shell logical operators
+13. alias
+Simple shell 1.0 +
+Implement the alias builtin command
+14. Variables
+Simple shell 1.0 +
+Handle variables replacement
+Handle the $? variable
+Handle the $$ variable
+15. Comments
+Simple shell 1.0 +
+Handle comments (#)
+16. File as input
+Simple shell 1.0 +
+Usage: simple_shell [filename]
+Your shell can take a file as a command line argument
+The file contains all the commands that your shell should run before exiting
+The file should contain one command per line
+In this mode, the shell should not print a prompt and should not read from stdin
