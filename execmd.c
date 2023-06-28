@@ -8,7 +8,7 @@ void execmd(char **argv)
 {
 	char *command = NULL, *actual_command = NULL;
 
-	if (argv)
+	while (argv)
 	{
 		command = argv[0];
 		actual_command = get_path(command);
