@@ -4,7 +4,7 @@ extern char **environ;
  * shell_env - prints the current enviroment
  * Return: void
  */
-void shell_env()
+void shell_env(void)
 {
     	char **env = environ;
     	

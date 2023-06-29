@@ -1,3 +1,6 @@
+#ifndef SHELL_H
+#define SHELL_H
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -8,4 +11,5 @@
 
 void execmd(char **argv);
 char *get_path(char *command);
-void shell_env();
+void shell_env(void);
+#endif
