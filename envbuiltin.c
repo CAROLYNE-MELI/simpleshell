@@ -1,20 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#inlude < unistd.h >
 /**
  * main - main function begins
  * environ - character to print
  * return 1 on succes else 0
  */
-extern char **environ;
+char environ;
 
-int main(void) {
-    char **env = environ;
+int main(void)
+{
+	char **env = environ;
 
-    // Print each environment variable
-    while (*env != NULL) {
-        printf("%s\n", *env);
-        env++;
-    }
+	while (*env != NULL)
+	{
+		printf("%s\n", *env);
+		env++;
+	}
 
-    return EXIT_SUCCESS;
+	return (1);
 }
