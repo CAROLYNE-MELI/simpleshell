@@ -4,7 +4,8 @@
 /**
  * main - main function begins
  * @environ - character to print
- * return - void
+ * return - zero when success
+ * void - main retrn
  */
 
 int main(void)
