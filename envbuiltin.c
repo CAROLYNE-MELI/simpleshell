@@ -3,10 +3,9 @@
 #inlude < unistd.h >
 /**
  * main - main function begins
- * environ - character to print
- * return 1 on succes else 0
+ * @environ - character to print
+ * return - void
  */
-char environ;
 
 int main(void)
 {
@@ -18,5 +17,5 @@ int main(void)
 		env++;
 	}
 
-	return (1);
+	return (0);
 }
