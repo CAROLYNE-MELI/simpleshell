@@ -11,5 +11,4 @@
 
 void execmd(char **argv);
 char *get_path(char *command);
-void shell_env(void);
 #endif
